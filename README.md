@@ -42,8 +42,8 @@ The core technical enhancement, inspired by the **CoQA dataset**, is the impleme
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/contextual-qa-bot.git
-cd contextual-qa-bot
+gh clone lvarshini3096/Contextual-Robust-Question-Answering-Bot
+cd Contextual-Robust-Question-Answering-Bot
 ```
 
 ### Create and Activate Environment
