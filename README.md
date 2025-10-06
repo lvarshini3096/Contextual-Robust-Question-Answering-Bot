@@ -87,18 +87,22 @@ JWST is designed to study the formation of stars and galaxies, and to detect lig
 
 [Turn 1] Direct Question
 Q: When was the James Webb Space Telescope launched?
+
 A: December 2021 (Confidence: 99.92%)
 
 [Turn 2] Contextual Follow-up
 Q: Who were the agencies involved in its development?
+
 A: NASA, ESA, and CSA (Confidence: 99.67%)
 
 [Turn 3] Unanswerable Question Test
 Q: How many astronauts operate it in space?
+
 A: I cannot find a relevant answer in the provided context (Low confidence).
 
 [Turn 4] Contextual Deepening
 Q: What is the telescope primarily designed to study?
+
 A: The formation of stars and galaxies (Confidence: 98.84%)
 
 --- Demo Complete ---
