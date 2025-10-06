@@ -74,38 +74,36 @@ python conversational_demo.py
 Below is a sample demonstration showing the bot handling multiple question types, demonstrating robustness (Turn 3) and contextual memory (Turn 2):
 
 
+```text
 --- Contextual & Robust Question Answering Demo ---
 
 Loading QA model: deepset/roberta-base-squad2...
 Model loaded successfully.
 
 --- New Context Set ---
-The James Webb Space Telescope (JWST) is a large infrared observatory launched in December 2021. 
-It was developed through an international collaboration between NASA, ESA, and the Canadian Space Agency (CSA). 
+The James Webb Space Telescope (JWST) is a large infrared observatory launched in December 2021.
+It was developed through an international collaboration between NASA, ESA, and the Canadian Space Agency (CSA).
 JWST is designed to study the formation of stars and galaxies, and to detect light from the first galaxies formed after the Big Bang.
 ----------------------
 
 [Turn 1] Direct Question
 Q: When was the James Webb Space Telescope launched?
-
 A: December 2021 (Confidence: 99.92%)
 
 [Turn 2] Contextual Follow-up
 Q: Who were the agencies involved in its development?
-
 A: NASA, ESA, and CSA (Confidence: 99.67%)
 
 [Turn 3] Unanswerable Question Test
 Q: How many astronauts operate it in space?
-
 A: I cannot find a relevant answer in the provided context (Low confidence).
 
 [Turn 4] Contextual Deepening
 Q: What is the telescope primarily designed to study?
-
 A: The formation of stars and galaxies (Confidence: 98.84%)
 
 --- Demo Complete ---
+```
 
 ## Technologies Used
 - Python 3.8+
