@@ -12,16 +12,16 @@ The core technical enhancement, inspired by the **CoQA dataset**, is the impleme
 
 ## Key Features
 
-- ** Robust QA (SQuAD 2.0):**  
+- Robust QA (SQuAD 2.0):  
   Uses the `deepset/roberta-base-squad2` model, fine-tuned on SQuAD 2.0, enabling the system to detect when *no answer exists* within the given context based on a confidence score threshold.
 
-- ** Conversational Flow (CoQA Inspired):**  
+- Conversational Flow (CoQA Inspired):
   The `qa_engine.py` script manages conversational state and refines follow-up questions, enabling **multi-turn, contextual QA** that mimics natural dialogue.
 
-- **⚡ Efficient Inference:**  
+- Efficient Inference:
   Leverages Hugging Face’s optimized `pipeline` API for **fast and reliable** predictions.
 
-- ** Organized Structure:**  
+- Organized Structure:
   Clear modular separation between:
   - Core QA logic (`qa_engine.py`)
   - Conversational demonstration (`conversational_demo.py`)
@@ -30,12 +30,13 @@ The core technical enhancement, inspired by the **CoQA dataset**, is the impleme
 
 ## Project Structure
 
+```bash
 .
 ├── README.md
 ├── requirements.txt
-├── qa_engine.py # Core QA logic and model interface
+├── qa_engine.py          # Core QA logic and model interface
 └── conversational_demo.py # Script to run a sample conversation flow
-
+```
 
 ## Setup and Installation
 
