@@ -80,35 +80,37 @@ Loading QA model: deepset/roberta-base-squad2...
 Model loaded successfully.
 
 --- New Context Set ---
-The first modern computer was the Z1, created by Konrad Zuse in 1938. It was a mechanical calculator...
+The James Webb Space Telescope (JWST) is a large infrared observatory launched in December 2021. 
+It was developed through an international collaboration between NASA, ESA, and the Canadian Space Agency (CSA). 
+JWST is designed to study the formation of stars and galaxies, and to detect light from the first galaxies formed after the Big Bang.
 ----------------------
 
 [Turn 1] Direct Question
-Q: Who built the Z1?
-A: Konrad Zuse (Confidence: 99.85%)
+Q: When was the James Webb Space Telescope launched?
+A: December 2021 (Confidence: 99.92%)
 
 [Turn 2] Contextual Follow-up
-Q: When was it rebuilt?
-A: 1980s (Confidence: 98.71%)
+Q: Who were the agencies involved in its development?
+A: NASA, ESA, and CSA (Confidence: 99.67%)
 
 [Turn 3] Unanswerable Question Test
-Q: What material was used for the ENIAC's casing?
+Q: How many astronauts operate it in space?
 A: I cannot find a relevant answer in the provided context (Low confidence).
 
-[Turn 4] Answerable Question on a different fact
-Q: How much power did the ENIAC use?
-A: 150 kW (Confidence: 99.55%)
+[Turn 4] Contextual Deepening
+Q: What is the telescope primarily designed to study?
+A: The formation of stars and galaxies (Confidence: 98.84%)
 
 --- Demo Complete ---
 
 ## Technologies Used
-Python 3.8+
-Hugging Face Transformers
-PyTorch
-SQuAD 2.0 Dataset
-CoQA-Inspired Conversational Logic
+- Python 3.8+
+- Hugging Face Transformers
+- PyTorch
+- SQuAD 2.0 Dataset
+- CoQA-Inspired Conversational Logic
 
 ## References
-Hugging Face Transformers
-SQuAD 2.0 Dataset
-CoQA Dataset
+- Hugging Face Transformers
+- SQuAD 2.0 Dataset
+- CoQA Dataset
