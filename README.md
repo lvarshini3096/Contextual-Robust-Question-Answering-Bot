@@ -42,7 +42,7 @@ The core technical enhancement, inspired by the **CoQA dataset**, is the impleme
 
 ### Clone the Repository
 ```bash
-gh clone lvarshini3096/Contextual-Robust-Question-Answering-Bot
+git clone lvarshini3096/Contextual-Robust-Question-Answering-Bot
 cd Contextual-Robust-Question-Answering-Bot
 ```
 
